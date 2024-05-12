@@ -1,0 +1,19 @@
+.list-circle {
+	display: flex;
+	flex-direction: column;
+
+	li {
+		padding-inline-start: 1.75rem;
+		position: relative;
+		
+		&::before {
+			content: '.';
+			display: block;
+			font: inherit;
+			border-radius: 50%;
+			position: absolute;
+			top: -5px;
+			left: 0;
+		}
+	}
+}

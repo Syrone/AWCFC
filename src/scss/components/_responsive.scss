@@ -1,0 +1,189 @@
+/** > 1200px **/
+@media (min-width: 1200px) {
+	.col-xl-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-xl-6 {
+		width: 50%;
+		float: left;
+	}
+}
+
+/** > 1400px **/
+@media (min-width: 1400px) {
+	.col-xxl-7 {
+		width: 58.33333333%;
+		float: left;
+	}
+	.col-xxl-5 {
+		width: 41.66666667%;
+		float: left;
+	}
+}
+
+/** > 1400px **/
+@media (max-width: 1400px) {
+}
+
+/** > 1200px **/
+@media (max-width: 1200px) {
+	.block {
+		&__double {
+			&-image {
+				width: 30vw;
+				height: 36vw;
+
+				&--second {
+					margin-top: -14vw;
+				}
+			}
+		}
+	}
+}
+
+/** > 992px **/
+@media (max-width: 992px) {
+	:root {
+		// font-size
+		--h1: 32px;
+		--h2: 28px;
+		--h3: 24px;
+		--h4: 20px;
+
+		--fs-xs: 14px;
+		--fs-sm: 16px;
+		--fs: 20px;
+	}
+
+	.bs-btn-primary {
+		padding: 4px 16px;
+	}
+
+	.swiper-product {
+
+		.swiper-button-next {
+			right: -120px;
+		}
+	
+		.swiper-button-prev {
+			left: -120px;
+		}
+	}
+
+
+	.block {
+		&--bg {
+			background-image: initial !important;
+		}
+
+		&__header {
+			&,
+			&-start {
+				gap: 20px;
+			}
+
+			&-image {
+				height: 60px;
+			}
+		}
+
+		&__double {
+			display: flex;
+			justify-content: space-between;
+			gap: 20px;
+			margin-bottom: 40px;
+
+			&-image {
+				width: 100%;
+				height: 100%;
+
+				&--second {
+					float: initial;
+					margin-top: initial;
+				}
+			}
+		}
+
+		&__picture {
+			margin-left: -30px;
+		}
+
+		&__image {
+			&--v1,
+			&--v2 {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			&--v3 {
+				margin-top: -60px;
+			}
+
+			&--full {
+				margin-top: 40px;
+			}
+		}
+
+		&__subtitle {
+			&--v2 {
+				margin-top: 0;
+			}
+		}
+
+		&__list {
+			&--v4 {
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+/** > 768px **/
+@media (max-width: 768px) {
+	.row-flex {
+		flex-wrap: wrap;
+		gap: 32px;
+	}
+
+	.swiper-product {
+
+		.swiper-button-next,
+		.swiper-button-prev {
+			display: none;
+		}
+	}
+
+	.block {
+		&__list {
+			&--v5 {
+				margin-top: 32px;
+			}
+
+			&--v6 {
+				margin-top: 0;
+			}
+		}
+
+		&__card {
+			max-width: initial;
+
+			&--v2 {
+				margin-bottom: 32px;
+			}
+		}
+	}
+}
+
+/** > 576px **/
+@media (max-width: 576px) {
+	.block {
+		&__double {
+			flex-direction: column;
+		}
+	}
+}
+
+/** > 380px **/
+@media (max-width: 380px) {
+}

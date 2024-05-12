@@ -1,0 +1,36 @@
+.bs-btn-primary {
+	min-height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--second-family);
+	font-size: var(--fs-xs);
+	font-weight: 700;
+	line-height: normal;
+	background-color: #1D6FB6;
+	border-color: #1D6FB6;
+	padding: 4px 32px;
+}
+
+.bs-btn-light {
+	min-height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--second-family);
+	font-size: var(--fs-xs);
+	font-weight: 700;
+	line-height: normal;
+	color: var(--secondary-color);
+	background-color: var(--background);
+	padding: 4px 32px;
+}
+
+.bs-btn-link {
+	font: inherit;
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: .25em;
+	text-decoration-thickness: 2px;
+}
+

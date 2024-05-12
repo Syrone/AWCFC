@@ -1,0 +1,35 @@
+.bs-table {
+	font-size: var(--fs-xs);
+
+	> thead,
+	> tbody {
+
+		> tr {
+
+			> td,
+			> th {
+				padding: 12px 10px;
+			}
+		}
+	}
+
+	> thead {
+
+		> tr {
+
+			> th {
+				text-align: center;
+			}
+		}
+	}
+
+	> tbody {
+
+		> tr {
+
+			> td {
+				text-align: center;
+			}
+		}
+	}
+}
