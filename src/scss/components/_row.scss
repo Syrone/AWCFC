@@ -9,6 +9,7 @@
 
 .row-flex {
 	display: flex;
+	flex-wrap: wrap;
 
 	&::after,
 	&::before {

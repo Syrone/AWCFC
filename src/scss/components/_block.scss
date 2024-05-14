@@ -70,23 +70,31 @@
 	}
 
 	&__picture {
+		height: calc(100% + 80px);
 		display: block;
-		margin-right: -30px;
+		margin-right: calc(var(--container-offset) * -1);
 	}
 
 	&__image {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
 
 		&--v1 {
-			margin-top: -160px;
-			margin-bottom: -80px;
+			max-height: 840px;
+			display: block;
+			margin: -160px auto -80px;
+			object-fit: contain;
 		}
 
 		&--v2 {
-			margin-bottom: -60px;
+			display: block;
+			margin: auto auto -60px;
 		}
 
 		&--v3 {
-			margin-top: -180px;
+			display: block;
+			margin: -180px auto auto;
 		}
 
 		&--v4 {
@@ -101,6 +109,12 @@
 			margin-top: -40px;
 			margin-bottom: -40px;
 		}
+	}
+
+	&__title,
+	&__subtitle {
+		position: relative;
+		z-index: 1;
 	}
 
 	&__title {
@@ -156,10 +170,6 @@
 		&--v6 {
 			margin-top: 48px;
 		}
-	}
-
-	&__table {
-		max-width: 1080px;
 	}
 
 	&__card {
